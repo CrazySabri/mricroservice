@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 8080
 spring:
   jpa:
     generate-ddl: false
@@ -16,3 +16,10 @@ logging:
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@

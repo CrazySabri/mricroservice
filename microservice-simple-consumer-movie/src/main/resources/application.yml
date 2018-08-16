@@ -1,0 +1,5 @@
+server:
+  port: 8010
+user:
+#  缺点：受限于服务提供者的地址，当采用集群时，无法动态伸缩
+  userServiceUrl: http://localhost:8080/
